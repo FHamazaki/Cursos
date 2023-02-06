@@ -1,0 +1,65 @@
+$ git init
+-> Inicia o repositorio do git
+
+$ git status
+-> status do git
+
+# Adicionar um novo repositório remoto ao Projeto Local.
+
+$ git remote add <name> <url>
+
+# O comando "git remote add" adiciona um novo repositório remoto ao seu projeto local no Git. 
+# O argumentos:
+# <name> : Nome personalizado que você deseja dar ao repositório remoto, 
+# <url>  : Endereço URL do repositório remoto na web. 
+# Depois de adicionar o repositório remoto, você pode usar o nome personalizado para fazer referência a ele em vez de ter que usar o URL inteiro.
+
+
+
+
+$ git add *
+$ git add .
+$ git add -A
+
+$ git add <nome_do_arquivo>
+
+$ git reset <nome_do_arquivo>
+$ git reset
+
+$ git commit -m "mensagem"
+-> Criar o commit da mensagem
+
+$ git commit --amend -m "nova mensagem"
+-> Edita a mensagem anterior
+
+$ git commit --amend -m --no-edit
+-> Não altera a mensagem anterior
+
+
+$ git branch -M main
+-> renomear o branch master para main
+
+$ git pusch
+$ git pusch --set-upstream origin <nome_da_branch>
+
+
+$ git log
+$ git log --oneline
+-> log de commit do git
+
+$ git push
+
+$ git reset HEAD~1
+-> volta n commit para traz
+
+$ git branch <nome_da_branch>
+-> cria uma branch
+
+$ git checkout -b <nome_da_branch>
+-> cria a branch e entra nela
+
+$ git checkout <nome_da_branch>
+-> Sai do branch atual e entra na branch selecionada
+
+$ git merge <nome_da_branch>
+-> Realiza um merge entre a branch main e a <nome_da_branch>
